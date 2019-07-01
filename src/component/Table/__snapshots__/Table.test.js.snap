@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render object header and object items in a table, if there is data: <tbody>
+      <tr>
+        <td>value1a</td>
+        <td>value2a</td>
+        <td>value3a</td>
+      </tr>
+      <tr>
+        <td>value1b</td>
+        <td>value2b</td>
+        <td>value3b</td>
+      </tr>
+      <tr>
+        <td>value1c</td>
+        <td>value2c</td>
+        <td>value3c</td>
+      </tr>
+    </tbody> 1`] = `ShallowWrapper {}`;
+
+exports[`should render object header and object items in a table, if there is data: <thead>
+      <tr>
+        <th>Header One</th>
+        <th>Header Two</th>
+        <th>Header Three</th>
+      </tr>
+    </thead> 1`] = `ShallowWrapper {}`;
+
+exports[`should render object header and object items in a table: <tbody>
+      <tr>
+        <td>value1a</td>
+        <td>value2a</td>
+        <td>value3a</td>
+      </tr>
+      <tr>
+        <td>value1b</td>
+        <td>value2b</td>
+        <td>value3b</td>
+      </tr>
+      <tr>
+        <td>value1c</td>
+        <td>value2c</td>
+        <td>value3c</td>
+      </tr>
+    </tbody> 1`] = `ShallowWrapper {}`;
+
+exports[`should render object header and object items in a table: <thead>
+      <tr>
+        <th>Header One</th>
+        <th>Header Two</th>
+        <th>Header Three</th>
+      </tr>
+    </thead> 1`] = `ShallowWrapper {}`;
+
+exports[`should render object header but no items in a table, when there is no data: <tbody>
+      <tr>
+        <td col-span>Sorry, no data available</td>
+      </tr>
+    </tbody> 1`] = `ShallowWrapper {}`;
+
+exports[`should render object header but no items in a table, when there is no data: <tbody>
+      <tr>
+        <td colSpan={3}>Sorry, no data available</td>
+      </tr>
+    </tbody> 1`] = `ShallowWrapper {}`;
+
+exports[`should render object header but no items in a table, when there is no data: <tbody>
+      <tr>
+        <td colSpan={4}>Sorry, no data available</td>
+      </tr>
+    </tbody> 1`] = `ShallowWrapper {}`;
+
+exports[`should render object header but no items in a table, when there is no data: <tbody>
+      <tr>
+        <td>Sorry, no data available</td>
+      </tr>
+    </tbody> 1`] = `ShallowWrapper {}`;
+
+exports[`should render object header but no items in a table, when there is no data: <thead>
+      <tr>
+        <th>Header One</th>
+        <th>Header Two</th>
+        <th>Header Three</th>
+      </tr>
+    </thead> 1`] = `ShallowWrapper {}`;
